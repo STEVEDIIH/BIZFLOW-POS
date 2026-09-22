@@ -1,40 +1,10 @@
-# 🚀 BizFlow POS
-
-**BizFlow POS** is a multi-purpose Point of Sale and business management system designed to help businesses manage daily sales, inventory, products, suppliers, expenses, returns, users, and business reporting from a centralized system.
+BIZFLOW POINT OF SALE is a multi-purpose Point of Sale and business management system designed to help businesses manage daily sales, inventory, products, suppliers, expenses, returns, users, and business reporting from a centralized system.
 
 The project is designed with practical business operations in mind, with support for both local/offline operation and synchronization-oriented functionality.
 
+ Key Features
 
-//screenshots
-
-//Login
-
-![BizFlow Login](screenshots/login.png)
-
-// Dashboard
-
-![BizFlow Dashboard](screenshots/dashboard.png)
-
-// Point of Sale
-
-![BizFlow POS](screenshots/pos.png)
-
-// Inventory Management
-
-![BizFlow Inventory](screenshots/inventory.png)
-
-// Reports
-
-![BizFlow Reports](screenshots/reports.png)
-
-// Receipt
-
-![BizFlow Receipt](screenshots/receipt.png)
-
-
-// Key Features
-
-// Point of Sale
+ Point of Sale
 
 * Product-based sales processing
 * Sales history
@@ -62,7 +32,7 @@ The project is designed with practical business operations in mind, with support
 * Cash reconciliation
 * Financial reporting
 * Returns and refunds tracking
-// ↩️ Returns Management
+//  Returns Management
 
 * Process customer returns
 * Track returned items
