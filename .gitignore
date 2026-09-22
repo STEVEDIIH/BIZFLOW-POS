@@ -1,0 +1,40 @@
+# Private configuration
+config/
+
+# Environment files
+.env
+.env.*
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Node dependencies
+node_modules/
+
+# Private API / payment integrations
+api/config.php
+api/kcb_config.php
+api/get_token.php
+api/ipn_callback.php
+api/kcb_callback.php
+api/stk_push.php
+api/token.php
+payments/
+
+# API/payment logs
+api/ipn_log.txt
+
+# Test/debug files
+api/test_ipn.php
+api/test_stk.php
+api/test_token.php
+reports/test_role.php
+php_version.php
+test cloud_db.php
+test_cloud_.php
+test_queue.php
+test_sync.php
+
+# Admin setup
+create_admin.php

@@ -1,0 +1,28 @@
+{
+  "name": "bizflow-pos",
+  "version": "1.0.0",
+  "description": "BizFlow POS System",
+  "main": "main.js",
+  "author": "Stephen",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.bizflow.pos",
+    "productName": "BizFlow POS",
+    "files": [
+      "**/*",
+      "!dist/**",
+      "!node_modules/.cache/**"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^38.8.6",
+    "electron-builder": "^26.0.12"
+  }
+}
