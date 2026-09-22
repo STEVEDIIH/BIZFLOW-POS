@@ -13,7 +13,7 @@ The project is designed with practical business operations in mind, with support
 * Cashier workflow
 * Payment handling
 
-// Inventory Management
+ Inventory Management
 
 * Product management
 * Stock adjustments
@@ -24,7 +24,7 @@ The project is designed with practical business operations in mind, with support
 * Discount management
 * Inventory financial analysis
 
-// Financial Management
+ Financial Management
 
 * Expense recording
 * Sales reporting
@@ -32,27 +32,27 @@ The project is designed with practical business operations in mind, with support
 * Cash reconciliation
 * Financial reporting
 * Returns and refunds tracking
-//  Returns Management
+  Returns Management
 
 * Process customer returns
 * Track returned items
 * View return history
 * Return-related reporting
 
-// User Management
+ User Management
 
 * User accounts
 * Authentication
 * User activation/deactivation
 * Role-based access control
 
-//  Supplier Management
+  Supplier Management
 
 * Supplier registration
 * Supplier records
 * Supplier management
 
-// 🔄 Synchronization
+  Synchronization
 
 BizFlow includes components designed to support synchronization between local and cloud environments.
 
@@ -65,12 +65,12 @@ The synchronization architecture includes:
 
 This allows the system to be developed around an offline-first/local operation model while supporting cloud synchronization.
 
-// Desktop Application
+ Desktop Application
 
 BizFlow also includes an Electron/Node.js application layer for desktop deployment.
 
 
-// Technology Stack
+ Technology Stack
 
 | Technology | Purpose                       |
 | ---------- | ----------------------------- |
@@ -82,7 +82,7 @@ BizFlow also includes an Electron/Node.js application layer for desktop deployme
 | Electron   | Desktop application packaging |
 | Git/GitHub | Version control               |
 
-// System Structure
+System Structure
 BIZFLOW/
 │
 ├── assets/
@@ -133,21 +133,21 @@ This includes items such as:
 Developers deploying their own instance should provide their own configuration and credentials.
 
 
-// ⚙️ Installation
+Installation
 
-// 1. Clone the repository
+ 1. Clone the repository
 
 git clone https://github.com/STEVEDIIH/BIZFLOW-POS.git
 
-// 2. Move the project into your local web server
+2. Move the project into your local web server
 
 For example, with WAMP:
 
 C:\wamp64\www\BIZFLOW
-// 3. Configure the database
+3. Configure the database
 
 Create a MySQL database and configure the required database connection settings for your local environment.
-// 4. Configure the application
+ 4. Configure the application
 
 Add the required private configuration files and environment-specific settings.
 
@@ -164,7 +164,7 @@ Run BizFlow through your configured local PHP/WAMP environment.
 If using the Electron desktop layer, use the appropriate npm script defined in `package.json`.
 
 
-//🔄 Development Approach
+Development Approach
 
 BizFlow was developed around practical business requirements rather than as a simple demonstration CRUD application.
 
@@ -182,7 +182,7 @@ Business Reconciliation
 
 It also includes synchronization-oriented components for environments where local operation and cloud data need to work together.
 
-// Future Development
+Future Development
 
 Planned and ongoing areas of development include:
 
@@ -194,14 +194,14 @@ Planned and ongoing areas of development include:
 * Further automation of business reporting
 * Continued desktop application improvements
 
-//  Developer
+ Developer
 wambugu Ndirangu stephen
 
 BBIT Student | Software Developer | Networking & Cybersecurity Enthusiast|cloud computing enthusiast
 
 Interested in building practical software systems, business applications, networking solutions, and cybersecurity technologies.
 
-// License
+ License
 
 This project is currently presented as a portfolio and development project.
 
